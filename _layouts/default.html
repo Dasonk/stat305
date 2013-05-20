@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta name="Author" content="Dason Kurkiewicz (dasonk@iastate.edu)"/>
+  <meta name="Description" content="Course website: STAT 305, Engineering Statistics"/>
+  <meta name="Keywords" content="Statistics, Iowa State University" />
+  <meta name="Robots" content="index,follow" />
+  <link rel="stylesheet" type="text/css" href="http://wlandau.github.com/css/wml-custom.css"/>
+  <link rel="icon" type="image/png" href="http://wlandau.github.com/img/bluesquares.png"/>
+  <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+  <script src="http://bibtex-js.googlecode.com/svn/trunk/src/bibtex_js.js"></script>
+  <title>Dason Kurkiewicz - Iowa State University</title>
+</head>
+<body>
+
+<div id="header">
+<div class="float">
+<div id="header-content">  
+  <div id="header-title">Stat 305: Engineering Statistics</div>
+  <div id="header-subtitle">Spring 2013 Section D</div>
+</div>
+</div>
+</div>
+
+<div id="navbar">
+<div class="float">
+<div id="navbar-content">
+  <a href="{{page.root}}index.html" class="navlink" {% if page.current == "syllabus" %} id="current" {% endif %}>Syllabus</a>
+  <a href="{{page.root}}materials.html" class="navlink" {% if page.current == "materials" %} id="current" {% endif %}>Materials</a>
+  <a href="https://stat305d-spring2013.wikispaces.com/home" class="navlink">Wiki</a>
+  <a href="http://wlandau.github.com" class="navlink">Instructor Home</a>
+</div>
+</div>
+</div>
+
+<div id="main">
+<div class="float">
+<div id="main-content">
+
+{{content}}
+
+</div>
+</div>
+</div>
+
+<div id="footer">
+<div class="float">
+<div id="footer-content">
+  Copyright &copy; <a href="http://dasonk.github.com/index.html">Dason Kurkiewicz</a>
+</div>
+</div>
+</div>
+
+</body>
+</html>
+
