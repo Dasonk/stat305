@@ -29,7 +29,7 @@ I set up a [doodle poll](http://www.doodle.com/5kefygmrrgiuzyxc) and will send o
 
 Dason Kurkiewicz
 
-<img src="/img/Married.jpg" alt="Married" style="width: 250px;"/>
+<img src="../img/Married.jpg" alt="Married" style="width: 250px;"/>
 
 Married for two years to Kelley
 
@@ -37,7 +37,7 @@ Married for two years to Kelley
 
 ## About me
 
-<img src="/img/Brutus.jpg" alt="Brutus" style="width: 600px;"/>
+<img src="../img/Brutus.jpg" alt="Brutus" style="width: 600px;"/>
 
 Have a beagle named Brutus
 
