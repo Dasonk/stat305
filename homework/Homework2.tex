@@ -1,0 +1,76 @@
+\documentclass[10pt]{article}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{enumerate}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{color}
+\usepackage{multicol}
+\usepackage{esdiff}
+
+\setlength{\topmargin}{-.55 in}
+\setlength{\textheight}{9 in}
+\setlength{\textwidth}{6.625 in}
+\setlength{\evensidemargin}{-.0625 in}
+\setlength{\oddsidemargin}{-.0625 in}
+\setlength{\parindent}{0 in}
+
+% by Dason Kurkiewicz
+% for Stat 305, ISU
+% Summer 2013
+\lhead{Unit 1}
+\chead{Homework 2}
+\rhead{Due: Friday, June 7}
+\lfoot{Stat 305}
+\cfoot{\thepage}
+\rfoot{Summer 2013}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\newcommand{\ansfont}[1]{{\sffamily \color{blue} \textbf{Answer:}\ \ #1}}
+\newcommand{\correction}[1]{{\color{green} \emph{#1}}}
+
+% Uncomment the following line to remove answers, and comment line out to show answers:
+\renewcommand{\ansfont}[1]{}
+
+
+\begin{document}
+\pagestyle{fancy}
+Show all of your work - I realize some of the answers are in the back of the book so provide your answer in your own words. Please staple in the upper left hand corner.
+
+\begin{enumerate}
+
+
+\item Chapter 3 Exercises
+    \begin{enumerate}
+        \item Question 4
+        \item Question 11
+        \item Question 21
+    \end{enumerate}
+\item Chapter 4 Exercises
+    \begin{enumerate}
+        \item Question 1
+        \item Question 3 (a-e)
+    \end{enumerate}
+\item Consider the data set entitled Anscombe. Consider the pair of variables x1 and y1 to be data set 1, the pair of variables x2 and y2 to be data set 2, and so on.  The data is given to you in both `wide' and `long' formats - choose whichever makes the particular task easiest.
+    \begin{enumerate}
+        \item Make a side-by-side boxplot that includes x1, x2, x3, x4
+        \item Make a side-by-side boxplot that includes y1, y2, y3, y4
+        \item Calculate the mean and standard deviation for all of the columns.  What do you notice?
+        \item Make scatterplots for each set of data.
+        \item For each set of data report the fitted regression line and correlation between the two variables.  What are the similarities and differences in the fits?
+        \item Write a sentence on why exploring your data graphically is important especially when reporting numeric summaries.
+    \end{enumerate}
+\item Use the `Tips' data for this problem.
+    \begin{enumerate}
+        \item What is the correlation between tip and total bill? What is the correlation between total bill and tip?
+        \item What is the correlation between tip+5 and total bill?
+        \item What is the correlation between tip*100 and total bill?
+        \item Create a column for $Std Tip = \dfrac{Tip - \text{mean}(Tip)}{SD(Tip)}$ and one for $Std Bill = \dfrac{Bill - \text{mean}(Bill)}{SD(Bill)}$. How does the estimated slope for predicting StdTip based on StdBill compare to the correlation coefficient between Tip and Bill?
+        \item What is the equation for the fitted regression line for predicting tip based on total bill? 
+        \item What is the equation for the fitted regression line for predicting total bill based on tip?
+        \item Using the regression you fit in the previous problem back-solve the prediction equation so that it is of the form: tip = a + b*(total bill).  Do you end up with the same equation as in part (d)?  If not explain why they are not the same.
+
+    \end{enumerate}        
+
+\end{enumerate} % Don't remove
+\end{document} 
